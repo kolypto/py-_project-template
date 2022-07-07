@@ -15,6 +15,8 @@ Add a project template and merge it into master:
 Now change the name of your project:
 
     $ ./rename-project.sh my-app-name
+    $ git add -A
+    $ git commit -m 'Template: customized'
 
 From now on, pull updates from upstream:
 
