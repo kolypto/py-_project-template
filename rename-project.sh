@@ -10,7 +10,7 @@ PROJECT_NAME=$1
 
 # Rename
 mv myproject $PROJECT_NAME
-fgrep -rnl 'myproject' * .githug | xargs sed -i "s/myproject/$PROJECT_NAME/g"
+fgrep -rnl 'myproject' * .github | xargs sed -i "s/myproject/$PROJECT_NAME/g"
 
 # Remove myself
 rm $0
